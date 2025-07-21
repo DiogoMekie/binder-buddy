@@ -1,11 +1,33 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [message, setMessage] = useState<string>('Loading message...');
 
+  useEffect(() => {
+    // Fetch data from the backend
+    const fetchMessage = async () => {
+      try {
+        // Using proxy defined in package.json , just /api/hello
+        const response = await fetch('/api/hello');
+
+        if (!response.ok) {
+          throw new Error('HTTP error! status: ' + response.status);
+        }
+
+      const data = await response.text();
+      setMessage(data);
+      } catch (error) {
+        console.error('Error fetching message:', error);
+        setMessage('Failed to load message from the backend');
+      }
+    };
+
+    fetchMessage();
+  }, []);
+      
   return (
     <>
       <div>
@@ -18,18 +40,14 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+        {/* Display the message from the backend */}
+        <p>{message}</p>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
     </>
-  )
+  );
 }
 
 export default App
