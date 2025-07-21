@@ -2,11 +2,11 @@
 
 ![Project Status](https://img.shields.io/badge/Status-In%20Progress-blue)
 ![Backend](https://img.shields.io/badge/Backend-Spring%20Boot-green)
-![Frontend](https://img.shields.io/badge/Frontend-Angular-red)
+![Frontend](https://img.shields.io/badge/Frontend-React-red)
 
 ## 🌟 Project Overview
 
-**BinderBuddy** is a comprehensive full-stack application designed to empower Trading Card Game (TCG) enthusiasts to meticulously track their card collections and monitor their real-time market values. Built with a robust **Spring Boot** backend and a dynamic **Angular** frontend, this platform aims to provide collectors with invaluable insights into their assets.
+**BinderBuddy** is a comprehensive full-stack application designed to empower Trading Card Game (TCG) enthusiasts to meticulously track their card collections and monitor their real-time market values. Built with a robust **Spring Boot** backend and a dynamic **React** frontend, this platform aims to provide collectors with invaluable insights into their assets.
 
 ## ✨ Features (Planned & In Progress)
 
