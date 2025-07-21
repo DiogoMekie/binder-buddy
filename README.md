@@ -2,7 +2,7 @@
 
 ![Project Status](https://img.shields.io/badge/Status-In%20Progress-blue)
 ![Backend](https://img.shields.io/badge/Backend-Spring%20Boot-green)
-![Frontend](https://img.shields.io/badge/Frontend-React-red)
+![Frontend](https://img.shields.io/badge/Frontend-React-61DAFB)
 
 ## 🌟 Project Overview
 
