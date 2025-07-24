@@ -7,10 +7,8 @@ function App() {
   const [message, setMessage] = useState<string>('Loading message...');
 
   useEffect(() => {
-    // Fetch data from the backend
     const fetchMessage = async () => {
       try {
-        // Using proxy defined in package.json , just /api/hello
         const response = await fetch('/api/hello');
 
         if (!response.ok) {
