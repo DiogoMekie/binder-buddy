@@ -1,3 +1,6 @@
 com/diogomekie/binderbuddy/backend/BinderBuddyBackendApplication.class
+com/diogomekie/binderbuddy/backend/service/UserDetailsServiceImpl.class
+com/diogomekie/binderbuddy/backend/model/User.class
 com/diogomekie/binderbuddy/backend/config/WebConfig.class
 com/diogomekie/binderbuddy/backend/controllers/WelcomeController.class
+com/diogomekie/binderbuddy/backend/repository/UserRepository.class
