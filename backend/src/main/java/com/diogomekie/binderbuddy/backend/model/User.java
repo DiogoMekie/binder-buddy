@@ -24,6 +24,4 @@ public class User {
 
     @Column(unique = true, nullable = false)
     private String email;
-
-    //Will add more fields later, let's make it work first
 }

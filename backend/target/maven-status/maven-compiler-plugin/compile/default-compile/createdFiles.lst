@@ -1,6 +1,14 @@
 com/diogomekie/binderbuddy/backend/BinderBuddyBackendApplication.class
+com/diogomekie/binderbuddy/backend/dto/RegisterRequest.class
+com/diogomekie/binderbuddy/backend/dto/LoginRequest.class
 com/diogomekie/binderbuddy/backend/service/UserDetailsServiceImpl.class
+com/diogomekie/binderbuddy/backend/dto/AuthResponse.class
+com/diogomekie/binderbuddy/backend/service/AuthService.class
+com/diogomekie/binderbuddy/backend/config/SecurityConfig.class
+com/diogomekie/binderbuddy/backend/service/JwtUtil.class
+com/diogomekie/binderbuddy/backend/controllers/AuthController.class
 com/diogomekie/binderbuddy/backend/model/User.class
+com/diogomekie/binderbuddy/backend/service/JwtAuthenticationFilter.class
 com/diogomekie/binderbuddy/backend/config/WebConfig.class
 com/diogomekie/binderbuddy/backend/controllers/WelcomeController.class
 com/diogomekie/binderbuddy/backend/repository/UserRepository.class
